@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="log1" src="fasfa/fb.PNG"></a>
+        <img class="log2" src="fasfa/search.png">
+        <input class="l log3" type="text" placeholder="rechercher sur facebook">
+        <img class="l log4" src="fasfa/home1.PNG">
+        <a href="index.html"><img class="l log5" src="fasfa/home1.PNG"></a>
+        <a href="#"><img class="l log6" src="fasfa/video.PNG"></a>
+        <a href="#"><img class="l log7" src="fasfa/shop.PNG"></a>
+        <a href="messenger.html"><img class="l log8" src="fasfa/contact.PNG"></a>
+        <a href="#"><img class="l log99" src="fasfa/shop.PNG"></a>
+        <img class="l m log9" src="fasfa/cube.PNG">
+        <img class="l m log10" src="fasfa/messenger.PNG" onclick="settingMessageToggle()">
+        <img class="l m log11" src="fasfa/notif.PNG" onclick="settingnotif()">
+        <img class="l m log11" src="fasfa/rhouma1.jpg" onclick="settingMenuToggle()">
+        <!---settings-menu --->
+        <div class="settings-menu">
+            <div class="user-profile une1">
+                <img src="fasfa/rhouma1.jpg" class="prof1">
+                <div>
+                    <a href="#"><p class="prof">Guitouni mohamed abderrahmen</p></a>
+                </div>
+            </div><hr>
+            <div class="user-profile">
+                <img src="fasfa/invite.PNG">
+                <div>
+                    <a href="#"><p>See invite</p></a>
+                </div>
+            </div>
+            <div class="user-profile">
+                <img src="fasfa/parametre.PNG">
+                <div>
+                    <a href="#"><p>parametre</p></a>
+                </div>
+            </div>
+            <div class="user-profile">
+                <img src="fasfa/night.png">
+                <div>
+                    <a href="#"><p>mode night</p></a>
+                </div>
+            </div>
+            <div class="user-profile">
+                <img src="fasfa/logout.png">
+                <div>
+                    <a href="login.html"><p>log out </p></a>
+                </div>
+            </div>
+        </div>
+        <!---- setting-message-->
+        <div class="setting-message">
+            <div class="message">
+                <div class="user-message">
+                    <h1>Discussions</h1>
+                </div>
+                <div class="user-icon">
+                    <img src="fasfa/moree.PNG">
+                    <img src="fasfa/zone.PNG">
+                    <img src="fasfa/camvid.PNG">
+                    <img src="fasfa/creer.PNG">
+                </div>
+                <div class="input1">
+                    <img src="fasfa/searchh.PNG">
+                    <input type="text" placeholder="Recherche dans messenger">
+                </div>
+                <div class="choix">
+                    <h2>messagerie</h2>
+                    <h2>communautés</h2>
+                </div>
+                <div class="user-nombre">
+                    <div class="userr">
+                        <img src="fasfa/307824849_1277247122825800_3069743614380384026_n (1).jpg" onclick="onoffmsg()">
+                        <i></i>
+                        <p class="ms1">Siwar Jandoubi</p>
+                        <p class="ms2">sbeh l5iir . 28min</p>
+                        <img class="vue" src="fasfa/vue1.PNG">
+                    </div>
+                    <div class="userr">
+                        <img src="photo/images (16).jpeg">
+                        <p class="ms1">Ahmed Weslati</p>
+                        <p class="ms2">vous : hahaha . 44min</p>
+                        <img class="vue" src="fasfa/vue2.PNG">
+                    </div>
+                    <div class="userr">
+                        <img src="photo/images (17).jpeg">
+                        <p class="ms1">Adem 5alsi</p>
+                        <p class="ms2">vous : wnk cv . 2h</p>
+                        <img class="vue" src="fasfa/vue1.PNG">
+                    </div>
+                    <div class="userr">
+                        <img src="fasfa/246829273_162213916119869_3854950682994085407_n.jpg">
+                        <i></i>
+                        <p class="ms1">Ameni nouri</p>
+                        <p class="ms2">ahla wnk labes allik . 4h</p>
+                        <img class="vue" src="fasfa/vue2.PNG">
+                    </div>
+                    <div class="userr">
+                        <img src="photo/images (20).jpeg">
+                        <p class="ms1">Sajeda Jaberri</p>
+                        <p class="ms2">ahla wnk  . 5h</p>
+                        <img class="vue" src="fasfa/vue1.PNG">
+                    </div>
+                    <div class="userr">
+                        <img src="photo/images (21).jpeg">
+                        <p class="ms1">Ramez Hammemi</p>
+                        <p class="ms2">vous : wa wnk . 7h</p>
+                        <img class="vue" src="fasfa/vue1.PNG">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---- setting-notification-->
+        <div class="setting-notification">
+            <h2>Notification</h2>
+            <img class="more1" src="fasfa/moree.PNG">
+            <div class="choix1">
+                <h3 class="blue1">Tout</h3>
+                <h3 class="blue2">Non lu</h3>
+            </div>
+            <div class="titr1">
+                <h3>nouveau</h3>
+                <a href="#"><h4>voir tout</h4></a>
+            </div>
+            <div class="notification">
+                <div class="notif">
+                    <img src="fasfa/307824849_1277247122825800_3069743614380384026_n (1).jpg" alt="">
+                    <p class="detail1">Siwar</p>
+                    <p class="detail2">aimer votre photo</p>
+                    <p class="detail3">il ya 2heure</p>
+                    <p class="detail4">94 amis en commun</p>
+                    <img src="fasfa/inver.PNG" class="inv1">
+                    <h3 class="conf1">Confirmer</h3>
+                    <h3 class="conf2">Supprimer</h3>
+                    <i></i>
+                </div>
+                <div class="notif">
+                    <img src="photo/images (21).jpeg" alt="">
+                    <p class="detail1">Ramez</p>
+                    <p class="detail2">aimer votre photo</p>
+                    <p class="detail3">il ya 5 heur</p>
+                    <img src="fasfa/grp.PNG" class="inv1">              
+                </div>
+                <div class="notif">
+                    <img src="fasfa/246829273_162213916119869_3854950682994085407_n.jpg" alt="">
+                    <p class="detail1">Ameni</p>
+                    <p class="detail2">aimer votre photo</p>
+                    <p class="detail3">il ya 4jours</p>
+                    <p class="detail4">144 amis en commun</p>
+                    <img src="fasfa/inver.PNG" class="inv1">
+                    <h3 class="conf1">Confirmer</h3>
+                    <h3 class="conf2">Supprimer</h3>
+                    <i></i>
+                </div>
+                <div class="notif">
+                    <img src="photo/images (20).jpeg" alt="">
+                    <p class="detail1">Sajeda</p>
+                    <p class="detail2">aimer votre photo</p>
+                    <p class="detail3">il ya 2jours</p>
+                    <p class="detail4">94 amis en commun</p>
+                    <img src="fasfa/inver.PNG" class="inv1">
+                    <i></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logoanimation">
+        <h1>Hello in the new citte web FACEBOOK</h1>
+    </div>
+    <div class="continue">
+        <div class="left">
+            <div class="compt1">
+                <img src="fasfa/rhouma1.jpg">
+                <p>Guitouni mouhamed abderrahmen</p>
+            </div>
+            <div class="compt1">
+                <img src="fasfa/amis.PNG">
+                <p>Amis</p>
+            </div>
+            <div class="compt1">
+                <img src="fasfa/grpp.PNG">
+                <p>groupes</p>
+            </div>
+            <div class="compt1">
+                <img src="fasfa/plusr.PNG">
+                <p>plus recentes</p>
+            </div>
+            <div class="compt1">
+                <img src="fasfa/markup.PNG">
+                <p>marketplace</p>
+            </div>
+            <div class="compt1">
+                <img src="fasfa/watch.PNG">
+                <p>watch</p>
+            </div>
+            <div class="compt1">
+                <img src="fasfa/voirp.png">
+                <p>Voir plus</p>
+            </div><hr>
+            <h3>vos raccourcis</h3>
+            <div class="compt1">
+                <img src="fasfa/omg.png">
+                <p>OMG</p>
+            </div>
+            <div class="compt1">
+                <img src="fasfa/pcgamer.PNG">
+                <p>PC GAMERS LIBYA</p>
+            </div>
+        </div>
+        <div class="center">
+            <div class="storyy">
+                <div class="typ tt1">
+                    <img src="fasfa/stor.PNG">
+                </div>
+                <div class="typ tt2">
+                    <img src="fasfa/reel.PNG">
+                </div>
+                <div class="typ tt3">
+                    <img src="fasfa/salon.PNG">
+                </div>
+                <div class="story1">
+                    <div class="store">
+                        <p class="parag20"><span class="span12">creer une storie</span></p>
+                        <img class="plu1ss" src="fasfa/pluss.PNG">
+                        <img class="str12" src="fasfa/rhouma2.jpg" alt="">
+                        <img class="str12" src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg" alt="">
+                        <img class="str12" src="fasfa/306321596_394420856232506_8284799910100183425_n.jpg" alt="">
+                        <img class="str12" src="fasfa/321438691_847804586481717_2994466232506812706_n.jpg" alt="">
+                        <img class="storr qttt1" src="fasfa/307824849_1277247122825800_3069743614380384026_n (1).jpg">
+                        <img class="storr qttt2" src="fasfa/246829273_162213916119869_3854950682994085407_n.jpg">
+                        <img class="storr qttt3" src="photo/images (29).jpeg">
+                        <p class="paragrafee1">Siwar jandoubi</p>
+                        <p class="paragrafee2">Ameni nouri</p>
+                        <p class="paragrafee3">Ahmed Wesleti</p>
+                    </div>
+                </div>
+            </div>
+            <div class="partage1">
+                <img class="sqtrg" src="fasfa/rhouma2.jpg" alt="">
+                <input class="inputt1" type="text" placeholder="Ecrire le Text qui pet partager.">
+                <img class="viddd12" src="fasfa/vidd.PNG">
+                <p class="parag122">Video en direct</p>
+                <img class="viddd1" src="fasfa/phohot.PNG">
+                <p class="parag123">photo / video</p>
+                <img class="viddd13" src="fasfa/hummeur.PNG">
+                <p class="parag134">Activiter</p>
+            </div>
+            <div class="partage22">      
+            </div>
+        </div>
+        <div class="right">
+            <div class="pubb">
+                <div class="compt2">
+                    <h2>sponsorisé</h2>
+                </div>
+                <div class="compt2">
+                    <img src="photo/leasing-voiture-sport.jpg">
+                    <p>Ferrari ..</p>
+                </div>
+                <div class="compt2">
+                    <img src="photo/pexels-den-pilsh-8022352.jpg">
+                    <p>BMW ..</p>
+                </div><hr>
+            </div>
+        </div>
+    </div>
+    <!---- messages-notification-->
+    <div class="minimessage">
+        <div class="headmsg1">
+            <a href="#"><p><img src="fasfa/307824849_1277247122825800_3069743614380384026_n (1).jpg" alt=""></p></a>
+            <a href="#"><h3>Siwar jandoubi</h3><p class="paragragra1">En ligne</p><span><img src="fasfa/close.PNG" onclick="onoffmsg()"></span></a>
+        </div>
+        <div class="messgrg">
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="envoi15">
+                <label><p>ahla wnk cv</p></label>
+            </div>
+            <div class="recs15">
+                <label><img src="fasfa/302293176_589452372666249_8571013811906110146_n.jpg"></label>
+                <label><p>ahla wnk cv</p></label>
+            </div>
+        </div>
+        <div class="envoyermsg115">
+            <strong><input type="text" placeholder="Entrer le message"></strong>
+            <strong><img src="fasfa/smljaim1.PNG" alt=""></strong>
+        </div>
+    </div>
+    <script src="java/settingmenu.js"></script>
+    <script src="java/msgnav.js"></script>
+</body>
+</html>

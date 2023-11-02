@@ -1,0 +1,931 @@
+body{
+    padding: 0;
+    margin: 0%;
+}
+.header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.header .log1{
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.header .log3{
+    display: inline;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+}
+.header .log2{
+    margin-left: 10px;
+}
+.header .l{
+    margin-left: 10px;
+}
+.header .log5{
+    margin-left: 300px;
+    height: 50px;
+    border-bottom: 2px solid #1877f2;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header .log6{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log6:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log7{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log7:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log8{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log8:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log99{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log99:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log9{
+    margin-left: 130px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.header .log10{
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.header .log11{
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.header .m{
+    margin-bottom: 7px;
+}
+.settings-menu{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    height: 370px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    top: 9.4%;
+    right: 2%;
+    max-height: 0;
+    transform: max-height 0.2s;
+}
+.settings-menu-height{
+    max-height: 500px;
+}
+.settings-menu hr{
+    margin-top: -10px;
+}
+.settings-menu .user-profile img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.settings-menu .user-profile .prof1{
+    height: 40px;
+    width: 40px;
+}
+.settings-menu .une1{
+    background: #1877f2;
+    color: #fff;
+}
+.settings-menu .user-profile p{
+    margin-left: 80px;
+    margin-top: -55px;
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.settings-menu .user-profile a{
+    text-decoration: none;
+}
+.settings-menu div:hover{
+    background: #1877f2;
+    color: #fff;
+}
+.settings-menu .user-profile p:hover{
+    color: #fff;
+}
+.settings-menu a .prof{
+    color: #050505;
+}
+.header button{
+    border: none;
+    background-color: #fff;
+}
+.setting-message{
+    position: absolute;
+    width: 80%;
+    max-width: 350px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    top: 9.4%;
+    right: 8%;
+    transform: max-height 0.2s;
+    max-height: 0;
+    overflow-y: auto;
+     
+}
+.setting-message-noun{
+    max-height: 500px;
+}
+.setting-message .user-message h1{
+    margin: 3px 10px;
+    font-family: cursive;
+    font-size: 22px;
+}
+.setting-message .user-icon{
+    margin-left: 170px;
+    margin-top: -28px;
+}
+.setting-message .user-icon img{
+    margin-left: 8px;
+}
+.setting-message .input1 input{
+    border: none;
+    padding-right: 20px;
+    margin-left: 35px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.setting-message .input1 img{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 18px;
+    height: auto;
+    width: auto;
+}
+.setting-message .choix h2{
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+    border: none;
+    background: #d7fdfd;
+    color: #1877f2;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    font-family: serif;
+}
+.setting-message .choix h2:hover{
+    background: #1877f2;
+    color: #fff;
+    cursor: pointer;
+}
+.setting-message .user-nombre{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.setting-message .user-nombre img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.setting-message .user-nombre .ms1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -55px;
+    font-size: 18px;
+}
+.setting-message .user-nombre .vue{
+    height: 25px;
+    width: 25px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+.setting-message .user-nombre .ms2{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -32px;
+    font-size: 15px;
+    color: rgb(116, 115, 115);
+}
+.setting-message .user-nombre .userr{
+    margin-bottom: 10px;
+}
+.setting-message .user-nombre i{
+    position: absolute;
+    padding: 8px;
+    background: rgb(2, 201, 2);
+    border-radius: 50%;
+    margin-left: -21px;
+    margin-top: 40px;
+    box-shadow: 0 0 0px 3px #fff;
+}
+.setting-notification{
+    position: absolute;
+    width: 80%;
+    max-width: 350px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    top: 9.4%;
+    right: 5%;
+    transform: max-height 0.2s;
+    max-height: 0;
+    overflow-y: auto;
+}
+.setting-notification-on{
+    max-height: 500px;
+}
+.setting-notification h2{
+    margin: 10px;
+    font-family: cursive;
+}
+.setting-notification .choix1 h3{
+    display: inline;
+    margin-left: 20px;
+    border: none;
+    background: #fff;
+    color: #050505;
+    font-family: serif;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.setting-notification .choix1 .blue2:hover{
+    background: #d7fdfd;
+    color: #1877f2;
+}
+.setting-notification .choix1 .blue1{
+    background: #d7fdfd;
+    color: #1877f2;
+}
+.setting-notification .more1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+.setting-notification .titr1{
+    margin: 15px;
+}
+.setting-notification .titr1 a h4{
+    float: right;
+    text-decoration: none;
+    margin-top: -40px;
+    font-size: 18px;
+    color: #1877f2;
+    border-radius: 2px;
+    border-bottom: 2px solid #1877f2;
+}
+.setting-notification .notification .notif{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.setting-notification .notification .notif img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.setting-notification .notification .notif .detail1{
+    margin-left: 70px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+.setting-notification .notification .notif .detail2{
+    margin-left: 120px;
+    margin-top: -37px;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+}
+.setting-notification .notification .notif .detail3{
+    margin-left: 70px;
+    margin-top: -10px;
+    font-size: 16px;
+    color: #1877f2;
+}
+.setting-notification .notification .notif .detail4{
+    margin-left: 70px;
+    color: rgb(138, 138, 138);
+    margin-top: -10px;
+}
+.setting-notification .notification .notif .inv1{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: -50px;
+    box-shadow: 0 0 0 2px #fff;
+}
+.setting-notification .notification .notif h3{
+    display: inline;
+    margin-left: 20px;
+    background: rgb(220, 229, 231);
+    color: #050505;
+    font-family: serif;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.setting-notification .notification .notif .conf1{
+    margin-left: 70px;
+    background: #1877f2;
+    color: #fff;
+
+}
+.setting-notification .notification .notif .conf2:hover{
+    background: #1877f2;
+    color: #fff;
+}
+.setting-notification .notification .notif i{
+    position: absolute;
+    padding: 5px;
+    margin-left: 100px;
+
+}
+.continue .left{
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+.continue .left .compt1{
+    margin-top: -25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.continue .left img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.continue .left  p{
+    margin-left: 50px;
+    margin-top: -35px;
+    font-size: 18px;
+}
+.continue .left h3{
+    font-size: 22px;
+    color: rgb(107, 107, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.continue .right{
+    margin-top: -450px;
+    float: right;
+    margin-right: 200px;
+}
+.continue .right .pubb img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.continue .right .pubb p{
+    color: rgb(104, 103, 103);
+    font-size: 18px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.continue .right hr{
+    width: 368px;
+    margin-right: -200px;
+}
+.center .storyy{
+    margin-top: 30px;
+    margin-left: 420px;
+    margin-right: 420px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px;
+}
+.center .typ{
+    display: inline;
+    margin-left: 5px;
+}
+.center  .tt1{
+    border-bottom: 3px solid #1877f2;
+}
+.center  .tt2:hover{
+    border-bottom: 3px solid #1877f2;
+}
+.center  .tt3:hover{
+    border-bottom: 3px solid #1877f2;
+}
+.center .storyy .story1 .store .str12{
+    border-radius: 10px;
+    display: inline;
+    height: 200px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.center .storyy .story1 .store .parag20{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 0 0 8px 8px;
+    padding-top: 35px;
+    padding-left: 11px;
+    padding-bottom: 18px;
+    background-color: #fff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+.center .storyy .story1 .store .span12{
+    font-size: 16px;
+    color: rgb(56, 55, 55);
+}
+.center .storyy .story1 .store .plu1ss{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 50px;
+    border-radius: 50%;
+    height: 33px;
+    box-shadow: 0 0 0 4px #fff;
+}
+.center .storyy .story1 .store .storr{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.center .storyy .story1 .store .qttt1{
+    position: absolute;
+    margin-left: -350px;
+    margin-top: 28px;
+    box-shadow: 0 0 0 4px #1877f2;
+}
+.center .storyy .story1 .store .qttt2{
+    position: absolute;
+    margin-left: -226px;
+    margin-top: 28px;
+    box-shadow: 0 0 0 4px #1877f2;
+}
+.center .storyy .story1 .store .qttt3{
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 28px;
+    box-shadow: 0 0 0 4px #1877f2;
+}
+.center .storyy .story1 .store .paragrafee1{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -40px;
+    color: #fff;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.center .storyy .story1 .store .paragrafee2{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -40px;
+    color: #fff;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.center .storyy .story1 .store .paragrafee3{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: -40px;
+    color: #fff;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.center .partage1{
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.center .partage1 .sqtrg{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+.center .partage1 .inputt1{
+    position: absolute;
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.center .partage1 .viddd12{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -40px;
+}
+.center .partage1 .parag122{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -58px;
+    color: rgb(80, 78, 78);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.center .partage1 .viddd1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+.center .partage1 .parag123{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -60px;
+    color: rgb(80, 78, 78);
+    font-size: 16px;
+    font-family: monospace;
+}
+.center .partage1 .parag123:hover{
+    color: #fff;
+    background-color: #1877f2;
+    border-radius: 10px;
+    padding: 3px;
+}
+.center .partage1 .parag134:hover{
+    color: #fff;
+    background-color: #1877f2;
+    border-radius: 10px;
+    padding: 3px;
+}
+.center .partage1 .parag122:hover{
+    color: #fff;
+    background-color: #1877f2;
+    border-radius: 10px;
+    padding: 3px;
+}
+.center .partage1 .viddd13{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 320px;
+}
+.center .partage1 .parag134{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -60px;
+    color: rgb(80, 78, 78);
+    font-size: 16px;
+    font-family: monospace;
+}
+.logoanimation h1{
+    margin-top: -1px;
+    font-family: monospace;
+    color: #1877f2;
+    text-shadow: 10px 10px 10px black;
+    animation-timing-function: linear;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+@keyframes slide{
+    from{margin-left: 0%;}
+    to{margin-left: 35%;}
+}
+/*minimessage*/
+.minimessage{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin-left: 1000px;
+    margin-top: -335px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+.minimessage .headmsg1 a{
+    text-decoration: none;
+}
+.minimessage .headmsg1 h3{
+    margin-left: 60px;
+    margin-top: 8px;
+}
+.minimessage .headmsg1 img{
+    margin-top: -17px;
+    margin-left: 10px;
+}
+.minimessage .headmsg1 .paragragra1{
+    margin-top: -17px;
+    margin-left: 60px;
+}
+/*.minimessage .headmsg1 span{
+    padding-left: 8px;
+    padding-right: 8px;
+    background: rgb(2, 201, 2);
+    border-radius: 50%;
+    box-shadow: 0 0 0px 3px #fff;
+    margin-left: 40px;
+    margin-top: -10px;
+}*/
+.minimessage .headmsg1 span {
+    position: fixed;
+    margin-left: 240px;
+    margin-top: -30px;
+}
+.minimessage .headmsg1 img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.minimessage .headmsg1 p{
+    position: absolute;
+    color: rgb(82, 80, 80);
+}
+.minimessage .headmsg1 h3{
+    color: #050505;
+}
+.minimessage .headmsg1{
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding-bottom: 5px;
+}
+.messgrg .recs15 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.messgrg .recs15 p{
+    margin-left: 40px;
+    margin-top: -20px;
+    background-color: rgb(209, 210, 221);
+    max-width: 80px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.messgrg .envoi15 p{
+    background-color: #1877f2;
+    color: #fff;
+    max-width: 80px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.messgrg{
+    overflow-y: auto;
+    max-height: 300px;
+}
+.minimessage{
+    display: none;
+}
+.minimessage-on{
+    display: table-row;
+}
+.messgrg .envoi15{
+    float: right;
+}
+.envoyermsg115 input{
+    border: none;
+    background-color: beige;
+    border-radius: 15px;
+    height: 35px;
+    width: 200px;
+}
+.continue .left{
+    float: left;
+    margin-left: 10px;
+}
+.continue .left .headdd1 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.continue .left .headdd1 .imgggg1{
+    margin-left: 170px;
+    margin-top: -75px;
+}
+.continue .left .headdd1 .imgggg1 img{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.continue .left .headdd1 .inpuutt12 input{
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border: none;
+    font-size: 16px;
+}
+.continue .left .headdd1 .inpuutt12 img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+}
+.continue .left .headdd1 .choixsx12x h3{
+    margin-top: 70px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    color: #050505;
+    background-color: #fff;
+}
+.continue .left .headdd1 .choixsx12x .h3hhjdx:hover{
+    color: #fff;
+    background-color: #1877f2;
+}
+.continue .left .headdd1 .choixsx12x .h3hhjdy{
+    color: #1877f2;
+    background-color: #d7fdfd;
+}
+.continue .left .headdd1 .choixsx12x .h3hhjdy:hover{
+    color: #fff;
+    background-color: #1877f2;
+}
+.continue .left .membermessage1 .users h3{
+    margin-left: 50px;
+    margin-top: -45px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.continue .left{
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);*/
+    border-radius: 15px;
+}
+.continue .left .membermessage1{
+    overflow-y: auto;
+    max-height: 300px;
+}
+.continue .left .membermessage1 .users p{
+    font-size: 16px;
+    color: rgb(95, 93, 93);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.continue .left .membermessage1 .users .vuue1{
+    margin-left: 270px;
+    margin-top: -74px;
+    height: auto;
+    width: auto;
+}
+.continue .left .membermessage1 a{
+    text-decoration: none;
+}
+.continue .centreee12{
+    margin-left: 360px;
+    margin-right: 360px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.continue .centreee12 .headdhe12 span{
+    display: inline-block;
+}
+.continue .centreee12 .headdhe12{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.continue .centreee12 .headdhe12 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.continue .centreee12 .headdhe12 span p{
+    margin-top: -10px;
+    color: rgb(95, 93, 93);
+}
+.continue .centreee12 .headdhe12 span h3{
+    margin-bottom: 15px;
+}
+.continue .centreee12 .headdhe12 .chutckah1223 .chutckah12{
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+.continue .centreee12 .headdhe12 .chutckah1223{
+    margin-left: 240px;
+}
+.continue .centreee12 .messagelistcont12 .messagerecus1 label img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.continue .centreee12 .messagelistcont12 .messagerecus1 label{
+    margin-left: 15px;
+    display: inline-block;
+}
+.continue .centreee12 .messagelistcont12{
+    max-height: 370px;
+    overflow-y: auto;
+}
+.continue .centreee12 .messagelistcont12 .messagerecus1 label p{
+    background: rgb(212, 212, 212);
+    margin-left: -5px;
+    padding: 5px;
+    border-radius: 15px 15px 15px 0;
+    font-family: monospace;
+}
+.continue .centreee12 .messagelistcont12 .messagerecus1 .envoi5{
+    float: right;
+    margin-right: 10px;
+}
+.continue .centreee12 .messagelistcont12 .messagerecus1 .envoi5 p{
+    background-color: #1877f2;
+    color: #fff;
+    font-family: monospace;
+    border-radius: 15px 15px 0 15px;
+}
+.continue .envoyermsg15 strong{
+    padding: 10px;
+}
+.continue .centreee12 .actif124{
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: rgb(2, 201, 2);
+    margin-left: -145px;
+    box-shadow: 0 0 0 4px #fff;
+}
+.continue .envoyermsg15 strong input{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    padding-bottom: 5px;
+}
+.continue .right12{
+    float: right;
+    margin-top: -482px;
+    height: 480px;
+    width: 330px;
+    margin-right: 20px;
+}
+.continue .right12 .jhglkfvnrg{
+    margin-left: 120px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.continue .right12 h2{
+    margin-left: 90px;
+    margin-top: -5px;
+}
+.continue .right12 p{
+    margin-left: 140px;
+    margin-top: -15px;
+    color: rgb(95, 93, 93);
+}
+.continue .right12 a{
+    margin-left: 15px;
+}
+.continue .right12 span img{
+    margin: 15px;
+}

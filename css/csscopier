@@ -1,0 +1,454 @@
+body{
+    padding: 0;
+    margin: 0%;
+}
+.header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.header .log1{
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.header .log3{
+    display: inline;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+}
+.header .log2{
+    margin-left: 10px;
+}
+.header .l{
+    margin-left: 10px;
+}
+.header .log5{
+    margin-left: 300px;
+    height: 50px;
+    border-bottom: 2px solid #1877f2;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header .log6{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log6:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log7{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log7:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log8{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log8:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log99{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header .log99:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.header .log9{
+    margin-left: 130px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.header .log10{
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.header .log11{
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.header .m{
+    margin-bottom: 7px;
+}
+.settings-menu{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    height: 370px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    top: 9.4%;
+    right: 2%;
+    max-height: 0;
+    transform: max-height 0.2s;
+}
+.settings-menu-height{
+    max-height: 500px;
+}
+.settings-menu hr{
+    margin-top: -10px;
+}
+.settings-menu .user-profile img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.settings-menu .user-profile .prof1{
+    height: 40px;
+    width: 40px;
+}
+.settings-menu .une1{
+    background: #1877f2;
+    color: #fff;
+}
+.settings-menu .user-profile p{
+    margin-left: 80px;
+    margin-top: -55px;
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.settings-menu .user-profile a{
+    text-decoration: none;
+}
+.settings-menu div:hover{
+    background: #1877f2;
+    color: #fff;
+}
+.settings-menu .user-profile p:hover{
+    color: #fff;
+}
+.settings-menu a .prof{
+    color: #050505;
+}
+.header button{
+    border: none;
+    background-color: #fff;
+}
+.setting-message{
+    position: absolute;
+    width: 80%;
+    max-width: 330px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    top: 9.4%;
+    right: 8%;
+    transform: max-height 0.2s;
+    max-height: 0;
+    overflow-y: auto;
+     
+}
+.setting-message-noun{
+    max-height: 500px;
+}
+.setting-message .user-message h1{
+    margin: 3px 10px;
+    font-family: cursive;
+    font-size: 22px;
+}
+.setting-message .user-icon{
+    margin-left: 170px;
+    margin-top: -28px;
+}
+.setting-message .user-icon img{
+    margin-left: 3px;
+}
+.setting-message .input1 input{
+    border: none;
+    padding-right: 20px;
+    margin-left: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.setting-message .input1 img{
+    position: absolute;
+    margin-top: 18px;
+    height: auto;
+    width: auto;
+}
+.setting-message .choix h2{
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+    border: none;
+    background: #d7fdfd;
+    color: #1877f2;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    font-family: serif;
+}
+.setting-message .choix h2:hover{
+    background: #1877f2;
+    color: #fff;
+    cursor: pointer;
+}
+.setting-message .user-nombre{
+    margin-top: 20px;
+}
+.setting-message .user-nombre img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.setting-message .user-nombre .ms1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -55px;
+    font-size: 18px;
+}
+.setting-message .user-nombre .vue{
+    height: 25px;
+    width: 25px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+.setting-message .user-nombre .ms2{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -32px;
+    font-size: 15px;
+    color: rgb(116, 115, 115);
+}
+.setting-message .user-nombre .userr{
+    margin-bottom: 10px;
+}
+.setting-message .user-nombre i{
+    position: absolute;
+    padding: 8px;
+    background: rgb(2, 201, 2);
+    border-radius: 50%;
+    margin-left: -21px;
+    margin-top: 40px;
+    box-shadow: 0 0 0px 3px #fff;
+}
+.setting-notification{
+    position: absolute;
+    width: 80%;
+    max-width: 350px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    top: 9.4%;
+    right: 5%;
+    transform: max-height 0.2s;
+    max-height: 0;
+    overflow-y: auto;
+}
+.setting-notification-on{
+    max-height: 500px;
+}
+.setting-notification h2{
+    margin: 10px;
+    font-family: cursive;
+}
+.setting-notification .choix1 h3{
+    display: inline;
+    margin-left: 20px;
+    border: none;
+    background: #fff;
+    color: #050505;
+    font-family: serif;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.setting-notification .choix1 .blue2:hover{
+    background: #d7fdfd;
+    color: #1877f2;
+}
+.setting-notification .choix1 .blue1{
+    background: #d7fdfd;
+    color: #1877f2;
+}
+.setting-notification .more1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+.setting-notification .titr1{
+    margin: 15px;
+}
+.setting-notification .titr1 a h4{
+    float: right;
+    text-decoration: none;
+    margin-top: -40px;
+    font-size: 18px;
+    color: #1877f2;
+    border-radius: 2px;
+    border-bottom: 2px solid #1877f2;
+}
+.setting-notification .notification .notif{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.setting-notification .notification .notif img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.setting-notification .notification .notif .detail1{
+    margin-left: 70px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+.setting-notification .notification .notif .detail2{
+    margin-left: 120px;
+    margin-top: -37px;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+}
+.setting-notification .notification .notif .detail3{
+    margin-left: 70px;
+    margin-top: -10px;
+    font-size: 16px;
+    color: #1877f2;
+}
+.setting-notification .notification .notif .detail4{
+    margin-left: 70px;
+    color: rgb(138, 138, 138);
+    margin-top: -10px;
+}
+.setting-notification .notification .notif .inv1{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: -50px;
+    box-shadow: 0 0 0 2px #fff;
+}
+.setting-notification .notification .notif h3{
+    display: inline;
+    margin-left: 20px;
+    background: rgb(220, 229, 231);
+    color: #050505;
+    font-family: serif;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.setting-notification .notification .notif .conf1{
+    margin-left: 70px;
+    background: #1877f2;
+    color: #fff;
+
+}
+.setting-notification .notification .notif .conf2:hover{
+    background: #1877f2;
+    color: #fff;
+}
+.setting-notification .notification .notif i{
+    position: absolute;
+    padding: 5px;
+    margin-left: 100px;
+
+}
+.continue .left{
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+.continue .left .compt1{
+    margin-top: -25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.continue .left img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.continue .left  p{
+    margin-left: 50px;
+    margin-top: -35px;
+    font-size: 18px;
+}
+.continue .left h3{
+    font-size: 22px;
+    color: rgb(107, 107, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.continue .right{
+    margin-top: 15px;
+    float: right;
+    margin-right: 200px;
+}
+.continue .left .compt2{
+    margin-top: -25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.continue .right .compt2 h2{
+    color: #222121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.continue .right .compt2 p{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -70px;
+    font-size: 18px;
+}
+.continue .right .compt2 .p1{
+    margin-top: -50px;
+    color: rgb(104, 103, 103);
+    font-size: 16px;
+}
+.continue .right .compt2 .p2{
+    margin-top: -30px;
+    color: rgb(104, 103, 103);
+    font-size: 16px;
+}
+.continue .right hr{
+    width: 320px;
+    margin-right: -200px;
+}
+.center .typ img{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.center .typ1 img{
+    
+    margin-top: -58px;
+    margin-left: 300px;
+}
+.center .typ2 img{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 470px;
+}
+.center .typ1 img:hover{
+    border-bottom: 2px solid #1877f2;
+}
+.center .typ2 img:hover{
+    border-bottom: 2px solid #1877f2;
+}
